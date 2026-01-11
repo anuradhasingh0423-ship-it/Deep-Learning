@@ -1,0 +1,36 @@
+### What is Deep Learning? Difference between ML & DL
+
+
+Deep learning is a subset of machine learning, which itself is a field of artificial intelligence. Deep learning models are inspired by how the human brain works, utilizing artificial neural networks (ANNs) that mimic the brain's structure and function. These networks consist of layers of interconnected neurons, which process and learn patterns from large amounts of data.
+
+-- Basics of Machine Learning
+
+Before diving into deep learning, it’s vital to understand machine learning. Machine learning gives machines the ability to learn from data without being explicitly programmed. This learning happens by recognizing patterns in past data, which allows the machine to make predictions about future data.
+
+--There are various machine learning models, each with its own approach to pattern recognition:
+
+Linear Regression: Used for predicting a continuous outcome.
+Logistic Regression: Used for classification tasks.
+Decision Trees and Random Forests: Used for classification and regression tasks.
+KNN (K-Nearest Neighbors): A classification algorithm that makes predictions based on the nearest data points.
+Unsupervised Learning Models (e.g., K-means, Hierarchical Clustering): Used when there’s no predefined output, aiming to find patterns or clusters in data.
+Introduction to Artificial Neural Networks (ANNs)
+Artificial neural networks are a key component of deep learning. These networks are composed of layers of neurons, each performing mathematical operations to identify complex patterns in data. ANNs are special because they are inspired by the human brain, with neurons in the network connected in a manner similar to how neurons in the brain interact.
+
+-- Types of Neural Networks
+In deep learning, the term “deep” refers to the number of layers in the network. The more layers a neural network has, the deeper it is. Some common types of deep learning models include:
+
+Convolutional Neural Networks (CNNs): Used primarily for image and video recognition tasks.
+Recurrent Neural Networks (RNNs): Used for sequential data, like time series or text.
+LSTM (Long Short-Term Memory) and GRU (Gated Recurrent Units): Specialized forms of RNNs that excel in handling long-term dependencies in data.
+Autoencoders: Used for unsupervised learning, often for tasks like data compression and noise reduction.
+Deep Learning as a Subset of Machine Learning
+
+While all deep learning models are machine learning models, not all machine learning models are deep learning models. Deep learning refers to the use of artificial neural networks with more than one hidden layer, allowing the model to learn increasingly abstract representations of the data. Models like CNNs, RNNs, and LSTMs are examples of deep learning architectures.
+
+--Why Fundamentals Matter
+The importance of mastering the basics cannot be overstated. Understanding fundamental concepts like linear regression, decision trees, and the structure of artificial neural networks provides the foundation for comprehending more complex deep learning models. As deep learning builds upon machine learning, a strong grasp of its foundational models ensures that learners can tackle advanced topics with confidence.
+
+In upcoming lessons, we will explore the components of artificial neural networks, their architecture, and how these networks are designed to learn from data. We will also delve into the fascinating parallels between human brain function and deep learning models.
+
+By developing a solid understanding of the basics, learners can look forward to a smoother, more enjoyable experience as they progress to more advanced deep learning concepts.
