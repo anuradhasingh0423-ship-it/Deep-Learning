@@ -48,43 +48,29 @@ Weights: Connections between neurons are associated with weights, which are adju
 Activation Functions
 Activation functions are crucial as they introduce non-linear properties to the network. This non-linearity allows the network to learn more complex patterns. Common activation functions include:
 
-ReLU (Rectified Linear Unit)
-Sigmoid
-Tanh
+.ReLU (Rectified Linear Unit)
+.Sigmoid
+.Tanh
+
 Forward Propagation
 In forward propagation, the input data is passed through the layers of the network. Each neuron computes a weighted sum of its inputs and applies an activation function to produce its output. This process continues from the input layer, through the hidden layers, and to the output layer, where the final prediction is made.
 
 The mathematical computation for a neuron is as follows:
 
-Output=σ(∑w 
-i
-​
- x 
-i
-​
- +b)
+Output=σ(∑wixi+b)
 
 Backward Propagation
 After forward propagation, the network computes the error by comparing the predicted output to the actual output. Backward propagation is then used to adjust the weights and biases in the network to minimize this error. The network uses optimization algorithms like gradient descent to update the weights.
 
 The weight update formula in gradient descent is:
 
-w 
-i
+wi =wi −η ∂E/∂wi
 ​
- =w 
-i
-​
- −η 
-∂w 
-i
-​
- 
-∂E
+
 ​
  
 
-Learning Process
+-- Learning Process
 The process of forward and backward propagation is repeated multiple times over the entire training dataset. Each repetition is called an epoch, and during each epoch, the network learns and improves its accuracy.
 
 Why Understand ANN Structure?
