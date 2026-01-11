@@ -1,0 +1,95 @@
+### Introduction to Neural Networks: Intuition and Inspiration from the Human Brain
+
+
+Hi and welcome! In the previous article, we discussed the concept of deep learning and explored its similarities and differences with machine learning. In this article, we will dive into Artificial Neural Networks (ANNs), exploring what they are, how they are inspired by the human brain, and their key components.
+
+Artificial Neural Networks and the Human Brain
+Before we get into the specifics of ANN, let's take a step back and understand why scientists were inspired by the human brain to replicate its functions. The structure and functionality of the human brain play a central role in the development of artificial neural networks.
+
+The human brain is composed of billions of neurons, and these neurons are interconnected in a highly complex way. Neurons communicate with one another through electrochemical signals, passing information along a network of connections. The brain's vast network of neurons allows us to learn, make decisions, analyze, communicate, and perform many other complex functions.
+
+The structure of a biological neuron in the brain consists of three main parts: the cell body, the axon, and the axon terminal (synapse). The dendrites, located on the cell body, receive input signals from other neurons. These signals are processed in the nucleus of the cell body, then transmitted through the axon, and eventually passed on to other neurons via synapses.
+
+Scientists aimed to replicate this brain-like structure artificially, which led to the development of artificial neural networks.
+
+Artificial Neural Networks (ANNs)
+Although artificial neural networks are inspired by the brain, they are much simpler. In an ANN, the basic structure mimics the biological neuron:
+
+there is an input layer, where data is received (like the dendrites in a biological neuron)
+a processing layer where computations occur (like the cell body)
+an output layer, where the result is sent out (similar to the axon)
+However, the process is not identical to the brain. In an ANN, the signal transmission is purely electrical, whereas in the biological brain, it’s electrochemical. Additionally, an ANN usually requires a much larger volume of data to learn effectively compared to the human brain, which can often learn from just a few examples.
+
+Early Development of Neural Networks
+The concept of artificial neural networks dates back to the early 1940s when two scientists, Warren McCulloch and Walter Pitts, developed a mathematical model of a neural network. Their work laid the foundation for neural networks as we know them today. Much later, advancements in computation power, research, and algorithms helped propel the development of ANNs.
+
+In the next article, we will explore the components of an ANN in more detail, particularly focusing on how ANNs learn through the training process using backpropagation.
+
+
+
+
+
+
+
+### ANN Structure and Components
+
+
+Welcome back! Today, we'll delve into the structure and components of a basic Artificial Neural Network (ANN), which is pivotal for understanding more complex models and applications in deep learning. Let's break down the architecture of a simple ANN to clarify how it operates and the critical elements it comprises.
+
+-- Architecture of a Basic ANN
+At its core, an ANN is designed to mimic the way the human brain processes information. Here’s how the architecture is generally structured:
+
+Input Layer: This is where the network receives its input data. Each neuron in the input layer represents a feature of the input data.
+Hidden Layers: These layers perform most of the computations required by the network. Although our example will use only one hidden layer, more complex networks can have multiple hidden layers. Each neuron in these layers transforms the inputs from the previous layer with a weighted sum followed by a non-linear activation function.
+Output Layer: The final layer that produces the output of the network. The number of neurons at this layer will depend on the type of problem being solved (e.g., binary classification, multi-class classification, regression).
+Neurons and Connections
+Neurons: Each layer consists of units called neurons. Neurons in different layers are connected through pathways. In a fully connected ANN, every neuron in one layer is connected to every neuron in the next layer.
+Weights: Connections between neurons are associated with weights, which are adjusted during training to minimize the prediction error of the network.
+Activation Functions
+Activation functions are crucial as they introduce non-linear properties to the network. This non-linearity allows the network to learn more complex patterns. Common activation functions include:
+
+ReLU (Rectified Linear Unit)
+Sigmoid
+Tanh
+Forward Propagation
+In forward propagation, the input data is passed through the layers of the network. Each neuron computes a weighted sum of its inputs and applies an activation function to produce its output. This process continues from the input layer, through the hidden layers, and to the output layer, where the final prediction is made.
+
+The mathematical computation for a neuron is as follows:
+
+Output=σ(∑w 
+i
+​
+ x 
+i
+​
+ +b)
+
+Backward Propagation
+After forward propagation, the network computes the error by comparing the predicted output to the actual output. Backward propagation is then used to adjust the weights and biases in the network to minimize this error. The network uses optimization algorithms like gradient descent to update the weights.
+
+The weight update formula in gradient descent is:
+
+w 
+i
+​
+ =w 
+i
+​
+ −η 
+∂w 
+i
+​
+ 
+∂E
+​
+ 
+
+Learning Process
+The process of forward and backward propagation is repeated multiple times over the entire training dataset. Each repetition is called an epoch, and during each epoch, the network learns and improves its accuracy.
+
+Why Understand ANN Structure?
+Understanding the structure and function of ANNs helps in:
+
+Designing Networks: Knowing how many layers and neurons to use.
+Choosing Activation Functions: Selecting the right activation function can drastically improve performance.
+Debugging and Improving: Identifying issues in network design and making informed adjustments.
